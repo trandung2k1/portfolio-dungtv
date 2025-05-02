@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
-import './globals.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -13,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Home - Tran Dung',
+  title: 'CV - Tran Dung',
   description:
     'Tran Dung - Software Engineer specializing in web development, cloud computing, and more. Explore my portfolio, skills, and experience.',
   keywords: [
@@ -29,7 +28,7 @@ export const metadata: Metadata = {
     'Tran Dung Resume',
     'Full Stack Developer',
   ],
-  robots: 'home, follow',
+  robots: 'index, follow',
   applicationName: 'Tran Dung Portfolio',
   generator: 'Next.js',
   // icons: {
