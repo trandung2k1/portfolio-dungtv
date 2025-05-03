@@ -20,7 +20,7 @@ const maxWidth = 800;
 
 type PDFFile = string | File | null;
 
-export default function PageCV() {
+export default function Resume() {
   const [file] = useState<PDFFile>('./cv.pdf');
   const [numPages, setNumPages] = useState<number>();
   const [containerRef, setContainerRef] = useState<HTMLElement | null>(null);
