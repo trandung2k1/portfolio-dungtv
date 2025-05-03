@@ -12,12 +12,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'CV - Tran Dung',
+  title: 'Resume - Tran Dung',
   description:
     'Tran Dung - Software Engineer specializing in web development, cloud computing, and more. Explore my portfolio, skills, and experience.',
   keywords: [
     'Tran Dung',
     'CV',
+    'Resume',
     'Portfolio',
     'Software Engineer',
     'Web Developer',
